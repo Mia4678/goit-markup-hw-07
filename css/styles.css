@@ -1,6 +1,18 @@
 .accent {
     color: blue;
 }
+.accent1 {
+    color: #2E2F42;
+}
+.accent2 {
+    color: #fff;
+}
+.text {
+    background-color: #2E2F42;
+}
+.text1 {
+    color: #fff;
+}
 .section1 {
     background-color: #2E2F42;
 }
