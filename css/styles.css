@@ -1,28 +1,41 @@
 body {
     background-color: #ffffff;
-    font-family:'Raleway', sans-serif;
+    color: #434455;
 font-family: 'Roboto', sans-serif;
 }
-.list {
-    list-style: none;
-}
+/* header logo */
 .header {
 }
 .header-navigation {
+    text-decoration: none;
+    text-transform: uppercase;
 }
+.link1 {
+        text-decoration: none;
+        text-transform: uppercase
+    }
+
 .logo {
-   color: #4D5AE5;
-font-weight: 800;
-font-size: 18px;
-line-height: 21px;
-}
-.logo2 {
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
+color: #4D5AE5;
+letter-spacing: 0.03em 
+}
+.logo2 {
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
 color: #2E2F42;
 }
 /* site nav */
+.list {
+    list-style: none;
+    text-decoration: none;
+    text-transform: uppercase
+}
 .header-item {
     font-weight: 500;
 font-size: 16px;
