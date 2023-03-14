@@ -18,21 +18,7 @@ line-height: 1.17;
 color: #4D5AE5;
 letter-spacing: 0.03em 
 }
-.link1 {
-        text-decoration: none;
-        text-transform: uppercase
-    }
-
-.logo {
-    
-    font-weight: 800;
-font-size: 18px;
-line-height: 1.17;
-color: #4D5AE5;
-letter-spacing: 0.03em 
-}
 .logo2 {
-    
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
@@ -40,6 +26,10 @@ letter-spacing: 0.03em;
 color: #2E2F42;
 }
 /* site nav */
+.link1 {
+    text-decoration: none;
+    text-transform: uppercase
+}
 .list {
     list-style: none;
     text-decoration: none;
