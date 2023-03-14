@@ -1,21 +1,56 @@
-.accent {
-    color: blue;
+body {
+    background-color: #ffffff;
+    font-family:'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
 }
-.accent1 {
-    color: #2E2F42;
+.list {
+    list-style: none;
 }
-.accent2 {
-    color: #fff;
+.header {
 }
-.text {
-    background-color: #2E2F42;
+.header-navigation {
 }
-.text1 {
-    color: #fff;
+.logo {
+   color: #4D5AE5;
+font-weight: 800;
+font-size: 18px;
+line-height: 21px;
 }
-.section1 {
-    background-color: #2E2F42;
+.logo2 {
+    font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+color: #2E2F42;
 }
-.text1 {
-    color: #fff;
+/* site nav */
+.header-item {
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+
+.section {
+background: #2E2F42;
+}
+.section-btn {
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 16px 32px;
+gap: 10px;
+
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.5px;
+background: #4D5AE5;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+}
+.section-logo {
+    font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+color: #FFFFFF;
 }
