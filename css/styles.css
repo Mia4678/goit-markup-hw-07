@@ -8,12 +8,9 @@ font-family: 'Roboto', sans-serif;
     text-decoration: none;
     text-transform: uppercase;
 }
-.link1 {
-        text-decoration: none;
-        text-transform: uppercase
-    }
-
-.logo {
+.link {
+    text-decoration: none;
+    text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
 font-size: 18px;
@@ -21,8 +18,21 @@ line-height: 1.17;
 color: #4D5AE5;
 letter-spacing: 0.03em 
 }
+.link1 {
+        text-decoration: none;
+        text-transform: uppercase
+    }
+
+.logo {
+    
+    font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+color: #4D5AE5;
+letter-spacing: 0.03em 
+}
 .logo2 {
-    font-family: 'Raleway', sans-serif;
+    
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
