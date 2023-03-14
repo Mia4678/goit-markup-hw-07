@@ -8,7 +8,7 @@ font-family: 'Roboto', sans-serif;
     text-decoration: none;
     text-transform: uppercase;
 }
-.link {
+.link1 {
     text-decoration: none;
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
@@ -26,7 +26,7 @@ letter-spacing: 0.03em;
 color: #2E2F42;
 }
 /* site nav */
-.link1 {
+.link {
     text-decoration: none;
     text-transform: uppercase
 }
