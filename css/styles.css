@@ -85,11 +85,16 @@ padding: 16px 32px;
 gap: 10px;
     font-weight: 500;
 font-size: 16px;
-line-height: 1.5px;
+line-height: 1.5;
+letter-spacing: 0.04em;
 color: #ffffff;
 background: var(--accent-color);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 cursor: pointer;
+}
+.section-btn:hover,
+.section-btn:focus{
+    color: #404BBF
 }
 /* Section 2 */
 .feature-list {
