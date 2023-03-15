@@ -40,8 +40,8 @@ color: var(--title-text-color)
 .site-nav:focus {
     color: #404bbf
 }
-.adress-nav:hover,
-.adress-nav:focus {
+.adress-nav .link:hover,
+.adress-nav .link:focus {
     color: #404bbf
 }
 .site-nav {
