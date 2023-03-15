@@ -1,6 +1,14 @@
+/* body text SLATE #434455 */
+/*  primary brand #4D5AE5 */
+/*  shadow,headings #2E2F42 */
+:root {
+    --primary-text-color: #434455; 
+    --title-text-color: #2e2f42;
+    --accent-color: #4D5AE5;
+}
 body {
     background-color: #ffffff;
-    color: #434455;
+    color: var(--primary-text-color);
 font-family: 'Roboto', sans-serif;
 }
 /* header logo */
@@ -15,7 +23,7 @@ font-family: 'Roboto', sans-serif;
     font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
-color: #4D5AE5;
+color: var(--accent-color);
 letter-spacing: 0.03em 
 }
 .logo2 {
@@ -23,46 +31,105 @@ font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
-color: #2E2F42;
+color: var(--shadow-text-color);
 }
 /* site nav */
 .link {
     text-decoration: none;
-    text-transform: uppercase
+    text-transform: uppercase;
+    font-weight: 500; 
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--shadow-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: #404bbf
 }
 .list {
     list-style: none;
     text-decoration: none;
     text-transform: uppercase
 }
-.header-item {
-    font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #2E2F42;
+.header-adress {
+    font-style: normal;
 }
-
-.section {
-background: #2E2F42;
+.adress-nav .list {
+    font-weight: 500; 
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: ;
+}
+/* section 1 */
+.hero {
+background: var(--title-text-color);
+}
+.hero-title {
+    text-align: center;
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+color: #ffffff;
+letter-spacing: 0.02em;
 }
 .section-btn {
+    font-family: "Roboto", sans-serif;
     display: flex;
 flex-direction: row;
 align-items: flex-start;
 padding: 16px 32px;
 gap: 10px;
-
     font-weight: 500;
 font-size: 16px;
 line-height: 1.5px;
-background: #4D5AE5;
+color: #ffffff;
+background: var(--accent-color);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-
+cursor: pointer;
 }
-.section-logo {
-    font-weight: 700;
-font-size: 56px;
-line-height: 1.07;
-color: #FFFFFF;
+/* Section 2 */
+.feature-list {
+    list-style: none;
+}
+.feature-list .title {
+    font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--title-text-color);
+}
+.title-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em
+    color: var(var(--primary-text-color));
+}
+/* section 3 */
+ .section-title {
+    text-align: center;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-transform: capitalize
+color: var(--title-text-color)
+ }
+ /* section 4*/
+ .section4 {
+    background-color: #F4F4FD;
+ }
+ .list-img {
+    background-color: #FFFFFF;
+ }
+ .title {
+    font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--title-text-color);
+}
+/*footer*/
+.footer {
+    background-color: var(--title-text-color);
 }
