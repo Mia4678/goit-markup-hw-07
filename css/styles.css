@@ -16,7 +16,7 @@ font-family: 'Roboto', sans-serif;
     text-decoration: none;
     text-transform: uppercase;
 }
-.link1 {
+.logo{
     text-decoration: none;
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
@@ -31,7 +31,7 @@ font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
-color: var(--shadow-text-color);
+color: var(--title-text-color)
 }
 /* site nav */
 .link {
@@ -41,11 +41,13 @@ color: var(--shadow-text-color);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--shadow-text-color);
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
     color: #404bbf
+}
+.site-nav {
+    color: var(--title-text-color);
 }
 .list {
     list-style: none;
