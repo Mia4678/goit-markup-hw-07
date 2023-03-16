@@ -5,10 +5,12 @@
     --primary-text-color: #434455; 
     --title-text-color: #2e2f42;
     --accent-color: #4d5ae5;
-    --button-background-color: #F4F4FD; 
+    --button-background-color: #f4f4fd;
+    --background-color: #404bbf;
+    --white-color: #ffffff;
 }
 body {
-    background-color: #ffffff;
+    background-color: var(--white-color);
     color: var(--primary-text-color);
 font-family: 'Roboto', sans-serif;
 }
@@ -17,7 +19,6 @@ font-family: 'Roboto', sans-serif;
     text-decoration: none;
 }
 .logo{
-    text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
 font-size: 18px;
@@ -31,7 +32,6 @@ color: var(--title-text-color)
 /* site nav */
 .site-nav{
     text-decoration: none;
-    text-transform: uppercase;
     font-weight: 500; 
     font-size: 16px;
     line-height: 1.5;
@@ -39,11 +39,11 @@ color: var(--title-text-color)
 }
 .site-nav:hover,
 .site-nav:focus {
-    color: #404bbf
+    color:var(--background-color)
 }
 .adress-nav .link:hover,
 .adress-nav .link:focus {
-    color: #404bbf
+    color: var(--background-color)
 }
 .site-nav {
     color: var(--title-text-color);
@@ -51,15 +51,13 @@ color: var(--title-text-color)
 .list {
     list-style: none;
     text-decoration: none;
-    text-transform: uppercase
 }
 .header-address {
     font-style: normal;
 }
 .adress-nav{
     text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 500; 
+    font-weight: 400; 
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -74,28 +72,24 @@ background: var(--title-text-color);
 font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
-color: #ffffff;
+color: var(--white-color);
 letter-spacing: 0.02em;
 }
 .section-btn {
-    font-family: "Roboto", sans-serif;
-    display: flex;
-flex-direction: row;
-align-items: flex-start;
+    font-family: "Roboto", sans-serif; 
 padding: 16px 32px;
-gap: 10px;
     font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
-color: #ffffff;
+color: var(--white-color);
 background: var(--accent-color);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 cursor: pointer;
 }
 .section-btn:hover,
 .section-btn:focus{
-    color: #404BBF
+    background-color: var(--background-color)
 }
 /* Section 2 */
 .feature-list {
@@ -112,7 +106,7 @@ color: var(--title-text-color);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(var(--primary-text-color));
+    color: var(--primary-text-color);
 }
 /* section 3 */
  .section-title {
@@ -125,10 +119,10 @@ color: var(--title-text-color);
  }
  /* section 4*/
  .section-four {
-    background-color: #F4F4FD;
+    background-color: var(--button-background-color);
  }
  .list-img {
-    background-color: #FFFFFF;
+    background-color: var(--white-color);
  }
  .title {
     font-weight: 500;
@@ -146,10 +140,10 @@ color: var(--title-text-color);
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #F4F4FD;
+color: var(--button-background-color);
 }
 .logo-footer {
-    color: #F4F4FD;
+    color: var(--button-background-color);
 }
 /*portfolio*/
 .logo-two {
@@ -168,12 +162,12 @@ cursor: pointer;
 }
 .site-button:hover,
 .site-button:focus {
-    color:#FFFFFF;
-    background-color: #404BBF;
+    color:var(--white-color);
+    background-color: var(--background-color);
 }
 .ocean{
-    background: #404BBF;
-    color: #ffffff;
+    background: var(--background-color);
+    color: var(--white-color);
 }
 .images-title{
     font-weight: 500;
