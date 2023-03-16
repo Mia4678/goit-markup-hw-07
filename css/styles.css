@@ -5,6 +5,7 @@
     --primary-text-color: #434455; 
     --title-text-color: #2e2f42;
     --accent-color: #4D5AE5;
+    --button-background-color: #F4F4FD; 
 }
 body {
     background-color: #ffffff;
@@ -147,6 +148,40 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #F4F4FD;
 }
-.logo3 {
+.logo-footer {
     color: #F4F4FD;
+}
+/*portfolio*/
+/*features-button*/
+.site-button {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: var(--accent-color);
+background-color: var(--button-background-color);
+cursor: pointer;
+}
+.site-button:hover,
+.site-button:focus {
+    color:#FFFFFF;
+    background-color: #404BBF;
+}
+.ocean{
+    background: #404BBF;
+    color: #ffffff;
+}
+.images-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+}
+.images-text{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
 }
