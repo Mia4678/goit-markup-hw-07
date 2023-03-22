@@ -9,14 +9,31 @@
     --background-color: #404BBF;
     --white-color: #ffffff;
 }
+
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+ul {
+margin: 0;
+padding: 0;
+}
 body {
     background-color: var(--white-color);
     color: var(--primary-text-color);
 font-family: 'Roboto', sans-serif;
 }
+img{
+    display: block;
+}
 /* header logo */
 .link {
     text-decoration: none;
+}
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
 }
 .logo{
     font-family: 'Raleway', sans-serif;
@@ -66,7 +83,10 @@ color: var(--title-text-color)
 }
 /* section 1 */
 .hero {
+    text-align: center;
 background: var(--title-text-color);
+padding-top: 120px;
+padding-bottom: 120px;
 }
 .hero-title {
     text-align: center;
@@ -76,7 +96,12 @@ line-height: 1.07;
 color: var(--white-color);
 letter-spacing: 0.02em;
 }
+.section {
+    padding-top: 120px;
+padding-bottom: 120px;
+}
 .section-btn {
+    display: inline-block;
     font-family: "Roboto", sans-serif; 
 padding: 16px 32px;
     font-weight: 500;
@@ -87,27 +112,38 @@ color: var(--white-color);
 background: var(--accent-color);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 cursor: pointer;
+text-align: center;
+border: 1px solid var(--accent-color);
+
 }
 .section-btn:hover,
 .section-btn:focus{
     background-color: var(--background-color)
 }
 /* Section 2 */
+.section-two {
+    padding-bottom: 120px;
+}
 .feature-list {
     list-style: none;
 }
+
 .feature-list .title {
     font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: var(--title-text-color);
+margin-top: 0;
+margin-bottom: 8px;
 }
+
 .title-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
+    margin: 0;
 }
 /* section 3 */
  .section-title {
@@ -115,13 +151,17 @@ color: var(--title-text-color);
 font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
-text-transform: capitalize;
 color: var(--title-text-color);
+
+
  }
  /* section 4*/
  .section-four {
     background-color: var(--button-background-color);
- }
+    padding-top: 120px;
+    padding-bottom: 120px;
+    }
+ 
  .list-img {
     background-color: var(--white-color);
  }
