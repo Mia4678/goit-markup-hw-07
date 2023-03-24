@@ -125,15 +125,14 @@ background: var(--title-text-color);
 padding-top: 188px;
 padding-bottom: 292px;
 }
-.hero-title {   
+.hero-title { 
+    text-align: center;  
 font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
 color: var(--white-color);
 letter-spacing: 0.02em;
 margin-bottom: 48px;
-width: 496px;
-height: 120px;
 }
 /* section 2 */
 .section{
