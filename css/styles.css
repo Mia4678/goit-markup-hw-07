@@ -104,7 +104,9 @@ img {
 .adress-nav {
     display: flex;
 }
-
+address{
+    margin-left: auto;
+}
 .adress-item:last-child {
     margin-right: 0;
     margin-left: 40px;
@@ -124,13 +126,14 @@ img {
 }
 
 .site-navigation.link {
-    margin-left: 0;
-    margin-right: 40px;
     color: var(--title-text-color);
 }
-
+.item{
+    margin-left: 0;
+    margin-right: 40px;
+}
 .item:last-child {
-    margin-right: 332px;
+    margin-right: 0;
 }
 
 .list {
@@ -263,9 +266,6 @@ img {
     color: var(--title-text-color);
     margin-bottom: 72px;
     text-transform: capitalize;
-    width: 332px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .img-flex {
@@ -367,9 +367,11 @@ img {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--accent-color);
-    background-color: var(--button-background-color);
     cursor: pointer;
     border: 0;
+    padding: 12px 24px;
+    border-radius: 4px;
+    background-color: var(--cornflower-color);
 }
 
 .site-button:hover,
@@ -395,39 +397,9 @@ img {
 }
 
 .one {
-    width: 69px;
-    height: 48px;
     border-radius: 4px;
     background-color: var(--accent-color);
     color: var(--white-color);
-}
-
-.two {
-    width: 116px;
-    height: 48px;
-    border-radius: 4px;
-    background-color: var(--cornflower-color);
-}
-
-.three {
-    border-radius: 4px;
-    width: 78px;
-    height: 48px;
-    background-color: var(--cornflower-color);
-}
-
-.four {
-    border-radius: 4px;
-    width: 101px;
-    height: 48px;
-    background-color: var(--cornflower-color);
-}
-
-.five {
-    border-radius: 4px;
-    width: 126px;
-    height: 48px;
-    background-color: var(--cornflower-color);
 }
 
 .portfolio-section {
@@ -439,9 +411,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     gap: 48px 24px;
-
 }
-
 .ocean {
     background: var(--background-color);
     color: var(--white-color);
