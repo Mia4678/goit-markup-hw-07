@@ -362,18 +362,24 @@ address {
   height: 40px;
   background-color: #4d5ae5;
   border-radius: 50%;
-  
-
 }
 .team-link:not(:last-child){
   margin-right: 24px;
 }
 .list-icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.socialmedia-icon:not(:last-child){
+  margin-right: 24px;
   
 }
 /* section 5*/
-.container-customer{
+.container-customers{
   width: 1128px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .customer-icon{
   height: 88px;
@@ -384,6 +390,12 @@ border-radius: 4px;
 flex-direction: row;
 align-items: center;
 justify-content: center;
+}
+.list-customers{
+  display: flex;
+}
+.customer-icon:not(:last-child){
+  margin-right: 24px;
 }
 /*footer*/
 .footer {
