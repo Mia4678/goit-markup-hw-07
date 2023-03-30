@@ -10,6 +10,7 @@
   --white-color: #ffffff;
   --cornflower-color: #e7e9fc;
   --customer-background: #E5E5E5;
+  --footer-socialmedia: #31D0AA;
 }
 
 p,
@@ -314,6 +315,7 @@ address {
   margin-right: 0;
 }
 
+
 /* section 4*/
 .section-team {
   background-color: var(--button-background-color);
@@ -356,6 +358,14 @@ address {
   letter-spacing: 0.02em;
   color: var(--title-text-color);
 }
+.list-icon{
+  display: flex;
+  justify-content: center;
+}
+.socialmedia-icon{
+  width: 40px;
+  height: 40px;
+}
 .team-link{
   display: flex;
   width: 40px;
@@ -372,11 +382,7 @@ address {
 .team-link:focus{
   background-color: var(--background-color);
 }
-.list-icon{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+
 .socialmedia-icon{
   width: 40px;
   height: 40px;
@@ -455,6 +461,19 @@ justify-content: center;
 }
 .socialmedia-container{
   width: 208px;
+}
+.footer-sm-link{
+  display: flex;
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+.footer-sm-link:hover,
+.footer-sm-link:focus{
+  background-color: var(--footer-socialmedia);
 }
 .socialmedia-title{
   font-family: 'Roboto';
