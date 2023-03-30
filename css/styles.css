@@ -9,7 +9,7 @@
   --background-color: #404bbf;
   --white-color: #ffffff;
   --cornflower-color: #e7e9fc;
-  --bg-gradient: ;
+  --customer-background: #E5E5E5;
 }
 
 p,
@@ -370,11 +370,20 @@ address {
 }
 .list-icon{
   
-
 }
 /* section 5*/
 .container-customer{
   width: 1128px;
+}
+.customer-icon{
+  height: 88px;
+  width: 168px;
+  display: flex;
+  border: 1px solid #8E8F99;
+border-radius: 4px;
+flex-direction: row;
+align-items: center;
+justify-content: center;
 }
 /*footer*/
 .footer {
