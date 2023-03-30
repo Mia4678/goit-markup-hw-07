@@ -377,6 +377,10 @@ address {
   align-items: center;
   justify-content: center;
 }
+.socialmedia-icon{
+  width: 40px;
+  height: 40px;
+}
 .socialmedia-icon:not(:last-child){
   margin-right: 24px;
 }
