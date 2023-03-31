@@ -244,28 +244,19 @@ address {
 .item-margin {
   margin-right: 24px;
 }
-.item-margin::before {
-  display: block;
-  content: "";
-  height: 112px;
-  background: #f4f4fd;
+.features-icon{
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+}
+.icon-svg{
+  border: transparent;
   border-radius: 4px;
-  margin-bottom: 8px;
-  background-repeat: no-repeat;
-  background-position: center;
+  background-color: #f4f4fd;
+  padding: 24px 100px;
 }
-.icon-antenna::before {
-  background-image: url(../images/antenna\ 1\ \(1\).svg);
-}
-.icon-clock::before {
-  background-image: url(../images/clock\ 1\ \(1\).svg);
-}
-.icon-pc::before {
-  background-image: url(../images/pc\ \(1\).svg);
-}
-.icon-astronaut::before {
-  background-image: url(../images/astronaut\ 1\ \(1\).svg);
-}
+
 .item-margin:last-child {
   margin-right: 0;
 }
@@ -393,17 +384,12 @@ address {
 
 /* section 5*/
 .container-customers{
-  width: 1128px;
-  padding-top: 120px;
-  padding-bottom: 120px;
+ 
 }
 .customer-icon{
   height: 88px;
-  width: 168px;
-  display: flex;
-flex-direction: row;
-align-items: center;
-justify-content: center;
+  width: calc((100%-120px) / 6);
+ 
 }
 .client-link{
   border: 1px solid #8E8F99;
@@ -411,6 +397,7 @@ border-radius: 4px;
 width: 100%;
 height: 100%;
 display: flex;
+color: #8e8f99;
 align-items: center;
 justify-content: center;
 }
@@ -421,16 +408,12 @@ justify-content: center;
   margin-right: 24px;
 }
 .client-icon{
-  fill: #8e8f99 ;
-}
-.client-icon:hover,
-.client-icon:focus{
-  fill: var(--background-color);
+  fill: currentColor; 
 }
 .client-link:hover,
 .client-link:focus{
-  border: 1px solid #8E8F99;
   border-color: var(--background-color);
+  color: var(--background-color);
 }
 /*footer*/
 .footer {
@@ -455,12 +438,13 @@ justify-content: center;
 .footer-container {
   width: 264px;
   flex-direction: column;
+  margin-right: 120px;
 }
 .footer-link{
   display: flex;
 }
-.socialmedia-container{
-  width: 208px;
+.socialmedia-icon-footer:not(:last-child){
+  margin-right: 16px;
 }
 .footer-sm-link{
   display: flex;
@@ -483,10 +467,11 @@ font-size: 16px;
 line-height: 24px;
 color: var(--white-color);
 margin-bottom: 16px;
+letter-spacing: 0.02em;
 }
 .container-flex{
   display: flex;
-  gap: 120px;
+  
 }
 /*portfolio*/
 
@@ -497,11 +482,13 @@ margin-bottom: 16px;
 .logo-two {
   color: var(--title-text-color);
 }
+.portfolio-shadow{
+  display: block;
+}
 .portfolio-shadow:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-
 /*features-button*/
 
 .btn-flex {
