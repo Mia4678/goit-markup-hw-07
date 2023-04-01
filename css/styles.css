@@ -244,17 +244,17 @@ address {
 .item-margin {
   margin-right: 24px;
 }
-.features-icon{
+
+.icon-svg{
+  height: 112px;
+  border: transparent;
+  border-radius: 4px;
+  background-color: #f4f4fd;
   display: flex;
   gap: 24px;
   align-items: center;
   justify-content: center;
-}
-.icon-svg{
-  border: transparent;
-  border-radius: 4px;
-  background-color: #f4f4fd;
-  padding: 24px 100px;
+  margin-bottom: 8px;
 }
 
 .item-margin:last-child {
