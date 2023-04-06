@@ -120,9 +120,7 @@ img {
 }
 
 .site-navigation.link {
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
   position: relative;
 }
 
@@ -153,11 +151,9 @@ address {
   color: var(--primary-text-color);
   padding-top: 24px;
   padding-bottom: 24px;
-  width: 152px;
+  
   display: block;
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .site-navigation.link {
@@ -250,9 +246,7 @@ address {
   border: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  transition-property: background-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-button:hover,
@@ -404,9 +398,7 @@ address {
   border-radius: 50%;
   align-items: center;
   justify-content: center;
-  transition-property: background-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-link:not(:last-child) {
@@ -444,9 +436,7 @@ address {
   color: #8e8f99;
   align-items: center;
   justify-content: center;
-  transition-property: color, border-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .list-customers {
@@ -509,9 +499,7 @@ address {
   border-radius: 50%;
   align-items: center;
   justify-content: center;
-  transition-property: background-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-sm-link:hover,
@@ -547,9 +535,7 @@ address {
 
 .portfolio-shadow {
   display: block;
-  transition-property: box-shadow;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-shadow:hover {
@@ -568,24 +554,17 @@ address {
 .portfolio-overlay-text {
   position: absolute;
   top: 0;
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
   color: var(--button-background-color);
   background-color: var(--accent-color);
-  padding-top: 40px;
-  padding-left: 32px;
-  padding-right: 32px;
+  padding: 40px 32px 0 32px;
   height: 100%;
   transform: translateY(100%);
-  transition-property: transform;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .item-overlay {
   position: relative;
   overflow: hidden;
@@ -609,9 +588,7 @@ address {
   padding: 12px 24px;
   border-radius: 4px;
   background-color: var(--cornflower-color);
-  transition-property: color, background-color, box-shadow;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color, background-color, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .site-button:hover,
@@ -623,9 +600,7 @@ address {
 }
 
 .site-button.one {
-  transition-property: background-color, box-shadow;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: background-color, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .site-button.one:hover,
@@ -698,6 +673,8 @@ address {
 .backdrop {
   position: fixed;
   top: 0;
+  left: 0;
+  opacity: 1;
   width: 100%;
   height: 100%;
   background-color: rgba(46, 47, 66, 0.4);
@@ -719,7 +696,7 @@ address {
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
   transition: transform 300ms linear;
-  padding: 24px;
+  
 }
 
 .btn-modal {
@@ -731,11 +708,20 @@ address {
   border: 1px solid rgba(0, 0, 0, 0.1);
   width: 24px;
   height: 24px;
-  margin-left: auto;
-}
 
+  position: absolute;
+  right: 24px;;
+  top: 24px;
+  cursor: pointer;
+  color: var(--title-text-color);
+}
+.btn-modal:hover,
+.btn-modal:focus{
+  background-color: var(--background-color);
+  color: #ffffff
+}
 .icon-color {
-  fill: var(--title-text-color);
+  fill: currentColor;
 }
 
 .is-hidden {
