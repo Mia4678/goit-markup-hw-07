@@ -859,6 +859,7 @@ address {
   border-radius: 4px;
   padding-left: 16px;
   outline: transparent;
+  color: var(--white-color);
 }
 
 .footer-input::placeholder {
@@ -866,6 +867,7 @@ address {
   font-weight: 400;
   font-size: 12px;
 }
+
 
 .footer-btn {
   width: 165px;
