@@ -926,7 +926,7 @@ address {
   overflow: hidden;
 }
 
-.input-check:checked+.check-text span {
+.input-check:checked + .check-text span {
   background-color: var(--background-color);
   border: none;
   fill: var(--white-color);
