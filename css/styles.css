@@ -689,7 +689,6 @@ address {
 
 .modal {
   width: 408px;
-  min-height: 576px;
   background-color: var(--modal-background);
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
@@ -698,7 +697,7 @@ address {
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
   transition: transform 300ms linear;
-  padding: 0px 24px;
+  padding: 72px 24px 24px;
 }
 
 .btn-modal {
@@ -710,13 +709,13 @@ address {
   border: 1px solid rgba(0, 0, 0, 0.1);
   width: 24px;
   height: 24px;
-
   position: absolute;
   right: 24px;
-  ;
   top: 24px;
   cursor: pointer;
   color: var(--title-text-color);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
 }
 
 .btn-modal:hover,
@@ -742,7 +741,6 @@ address {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
-  margin-top: 72px;
   margin-bottom: 16px;
 }
 
@@ -783,6 +781,14 @@ address {
   margin-bottom: 8px;
 }
 
+.modal-field-margin {
+  margin-bottom: 16px;
+}
+
+.modal-field-check {
+  margin-bottom: 24px;
+}
+
 .input-wrap {
   position: relative;
 }
@@ -813,9 +819,7 @@ address {
 }
 
 .modal-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: block;
   border-style: none;
   outline: transparent;
   width: 169px;
@@ -830,6 +834,7 @@ address {
   letter-spacing: 0.04em;
   margin-left: auto;
   margin-right: auto;
+  cursor: pointer;
 }
 
 .container-form {
@@ -870,6 +875,8 @@ address {
 
 
 .footer-btn {
+  font-weight: 500;
+  font-size: 16px;
   width: 165px;
   height: 40px;
   border-radius: 4px;
@@ -880,7 +887,8 @@ address {
   gap: 16px;
   align-items: center;
   justify-content: center;
-  padding: 10px 24px ;
+  padding: 10px 24px;
+  cursor: pointer;
 }
 
 /*checkbox*/
@@ -926,4 +934,6 @@ address {
 
 .link-policy {
   color: var(--accent-color);
+  display: block;
+  margin-left: 4px;
 }
