@@ -889,7 +889,7 @@ img {
   }
 
   .feature-list {
-    width: 396px;
+   
   }
 
   .footer-input {
@@ -933,6 +933,8 @@ img {
   }
 }
 
+@media screen and (min-width:428px) {  .container {    max-width: 428px;  }
+  .feature-list {    width: 396px;  } }
 /* mobile menu */
 @media screen and (max-width:480px) {
   .mob-menu {
@@ -1047,12 +1049,11 @@ img {
     display: flex;
     margin-left: 0;
     flex-basis: calc((100% - 24px) / 2);
-    
-flex-wrap: wrap;
+    flex-wrap: wrap;
     
   }
   .item-margin{
-  
+    flex-basis: calc((100% - 24px) / 2);
   }
 
   .site-nav {
