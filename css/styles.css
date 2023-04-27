@@ -49,7 +49,7 @@ img {
 
 .container {
   /* width: 1128px; */
-  width: 100%;
+  
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -189,10 +189,6 @@ img {
 
 .feature-list {
   list-style: none;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-
 }
 
 .section-we {
@@ -253,6 +249,7 @@ img {
 }
 
 .team {
+  padding-top: 32px;
   padding-bottom: 32px;
   text-align: center;
 }
@@ -865,7 +862,8 @@ img {
     max-width: 428px;
   }
   .hero{
-    padding: 112px 54px 240px 54px;
+    padding-top: 112px;
+    padding-bottom: 240px;
   }
   .hero-title{
     font-size: 36px;
@@ -1042,7 +1040,8 @@ img {
     display: none;
   }
   .hero {
-    padding: 112px 136px 112px 136px;
+    padding-top: 112px;
+    padding-bottom: 112px;
     max-width: 1128px;
   }
   .hero-title{
