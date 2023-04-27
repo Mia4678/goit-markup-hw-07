@@ -864,7 +864,23 @@ img {
   .container {
     max-width: 428px;
   }
-
+  .hero{
+    padding: 112px 54px 240px 54px;
+  }
+  .hero-title{
+    font-size: 36px;
+    line-height: 1.1;
+    width: 320px;
+    margin-bottom: 72px;
+  }
+  .section {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+  .section-team {
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
   .footer-input {
     width: 398px;
   }
@@ -975,8 +991,8 @@ img {
 
   .menu-tel {
     font-weight: 700;
-    font-size: 27px;
-    line-height: 1.5;
+    font-size: 36px;
+    line-height: 1.1;
   }
 
   .menu-email {
@@ -998,8 +1014,8 @@ img {
 
   .mob-link {
     display: flex;
-    width: 35px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
     background-color: var(--accent-color);
     border-radius: 50%;
     align-items: center;
@@ -1014,9 +1030,9 @@ img {
 @media screen and (min-width:768px) {
   .container {
     max-width: 768px;
-    margin-left: 0;
-    margin-right: 0;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    
   }
 
   .mob-menu.is-hidden {
@@ -1025,7 +1041,13 @@ img {
     pointer-events: none;
     display: none;
   }
-
+  .hero {
+    padding: 112px 136px 112px 136px;
+    max-width: 1128px;
+  }
+  .hero-title{
+    margin-bottom: 36px;
+  }
   .menu-open {
     display: none;
   }
@@ -1066,7 +1088,7 @@ img {
     display: block;
     background-color: var(--background-color);
     border-radius: 2px;
-    bottom: -13px;
+    bottom: -4px;
   }
 
   .site-navigation.link.line {
@@ -1131,8 +1153,8 @@ img {
   .adress-nav {
     text-decoration: none;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
+    font-size: 12px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
     display: flex;
@@ -1165,9 +1187,8 @@ img {
 
   .customer-icon {
     height: 88px;
-    width: calc((100% - 24px) / 3);
+    width: calc((100% - 48px) / 3);
   }
-
   .container-flex {
     flex-direction: row;
     gap: 72px 24px;
@@ -1211,17 +1232,45 @@ img {
 @media screen and (min-width:1158px) {
   .container {
     max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: baseline;
   }
-
+  .section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .section-team {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
   .adress-nav {
     flex-direction: row;
     gap: 40px;
   }
+  .adress-item:not(:last-child) {
+    margin-bottom: 0px;
+}
 
   .line:after {
-    bottom: 0;
+    bottom: 3px;
   }
-
+  .hero{
+    height: 600px;
+    max-width: 1440px;
+    padding-top: 188px;
+  padding-bottom: 188px;
+  }
+  .hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    width: 496px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
+  }
   .icon-svg {
     height: 112px;
     border: transparent;
@@ -1238,7 +1287,11 @@ img {
     flex-wrap: nowrap;
     gap: 24px;
   }
-
+  .feature-list .title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+  }
   .section-title {
     text-align: center;
     font-size: 36px;
