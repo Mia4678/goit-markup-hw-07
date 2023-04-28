@@ -183,8 +183,8 @@ img {
 
 /* section 2 */
 .section {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .feature-list {
@@ -233,8 +233,8 @@ img {
 /* section 4*/
 .section-team {
   background-color: var(--button-background-color);
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .section-title {
@@ -857,7 +857,7 @@ img {
 }
 
 /* media */
-@media screen and (min-width:428px) {
+@media screen and (min-width:427px) {
   .container {
     max-width: 428px;
   }
@@ -1023,6 +1023,7 @@ img {
   .socialmedia-mob-icon {
     margin-top: 35px;
   }
+  
 }
 
 @media screen and (min-width:768px) {
@@ -1046,6 +1047,9 @@ img {
   }
   .hero-title{
     margin-bottom: 36px;
+      font-size: 56px;
+      line-height: 1.07;
+      width: 496px;
   }
   .menu-open {
     display: none;
@@ -1087,7 +1091,7 @@ img {
     display: block;
     background-color: var(--background-color);
     border-radius: 2px;
-    bottom: -4px;
+    bottom: -11px;
   }
 
   .site-navigation.link.line {
@@ -1168,7 +1172,7 @@ img {
   }
 
   .header-container {
-    padding: 16px;
+    padding: 24px 16px;
 
   }
 
@@ -1237,6 +1241,10 @@ img {
     margin-right: auto;
     align-items: baseline;
   }
+  .header-container {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
   .section {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -1248,13 +1256,15 @@ img {
   .adress-nav {
     flex-direction: row;
     gap: 40px;
+    font-size: 16px;
+    line-height: 1.5;
   }
   .adress-item:not(:last-child) {
     margin-bottom: 0px;
 }
 
   .line:after {
-    bottom: 3px;
+    bottom: -3px;
   }
   .hero{
     height: 600px;
@@ -1263,8 +1273,6 @@ img {
   padding-bottom: 188px;
   }
   .hero-title {
-    font-size: 56px;
-    line-height: 1.07;
     width: 496px;
     margin-left: auto;
     margin-right: auto;
